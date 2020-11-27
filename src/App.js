@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import SumOfOdd from "./SumOfOdd";
+import "./App.css";
+import SumOfInteger from "./SumOfInteger";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SumOfInteger />
+      <SumOfOdd />
     </div>
   );
 }
